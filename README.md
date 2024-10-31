@@ -21,3 +21,13 @@ Setelah Python terinstal, buka terminal atau command prompt dan jalankan perinta
 
 ```bash
 pip install pyfiglet colorama subprocess
+
+
+## Cara Menjalankan Program
+
+1. **Buka Terminal atau Command Prompt**.
+2. **Navigasi ke direktori** tempat Anda menyimpan file `wifi_passwords.py`.
+3. Jalankan program dengan perintah berikut:
+
+   ```bash
+   python wifi_passwords.py

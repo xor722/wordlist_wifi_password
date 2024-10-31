@@ -21,13 +21,29 @@ Setelah Python terinstal, buka terminal atau command prompt dan jalankan perinta
 
 ```bash
 pip install pyfiglet colorama subprocess
-
+```
 
 ## Cara Menjalankan Program
 
 1. **Buka Terminal atau Command Prompt**.
-2. **Navigasi ke direktori** tempat Anda menyimpan file `wifi_passwords.py`.
+2. **Navigasi ke direktori** tempat Anda menyimpan file `wordlist.py`.
 3. Jalankan program dengan perintah berikut:
 
    ```bash
    python wifi_passwords.py
+   ```
+4. Hasilnya akan ditampilkan di konsol dan disimpan dalam file `wifi_passwords.txt`.
+
+### Contoh Output
+Program ini akan menampilkan output seperti ini di konsol:
+```bash
+Wi-Fi Name                    | Password
+-----------------------------------------------
+Network1                    | password123
+Network2                    | Not Found
+Network3                    | mysecretpassword
+```
+
+### Catatan
+- Program ini hanya berfungsi di sistem operasi Windows karena menggunakan perintah `netsh`.
+- Jalankan program dengan hak akses administrator untuk memastikan semua informasi Wi-Fi dapat diakses.
